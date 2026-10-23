@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Career Goals</title>
+</head>
+<body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cover-letter.html">Cover Letter</a>
+      <a href="career-goals.html" class="active">Career Goals</a>
+    </nav>
+
+    <header>
+        <br>
+        <h1>Career Goals.</h1>
+    </header>
+
+    <main>
+        <h2 id="tag-line"><em>Dreams, Schemes, and Code Streams.</em></h2>
+        <hr>
+        <br>
+        <h2>My Goals</h2>
+
+        <div class="goals-section">
+
+        <ul class="goals-list">
+            <li>Write clean, maintainable code</li>
+            <li>Contribute to meaningful projects</li>
+            <li>Always be learning something new</li>
+            <li>Collaborate with creative, curious people</li>
+            <li>Eventually lead a team I’d be proud to join</li>
+        </ul>
+
+        <img src="images/photo-017.jpg" alt="Stephanie working or coding" class="goals-image">
+        </div>
+        <section>
+
+        <h2>Multimedia</h2>
+        <audio controls>
+            <source src="media/audiofile.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio><br>
+
+        <video width="320" height="240" controls>
+            <source src="media/20250526_132119.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </section>
+
+        <section>
+        <h2>Contact Me</h2>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br>
+
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            <p>Best contact time:</p>
+            <input type="radio" name="contact_time" value="am" id="am"><label for="am">A.M.</label>
+            <input type="radio" name="contact_time" value="pm" id="pm"><label for="pm">P.M.</label>
+            <input type="radio" name="contact_time" value="anytime" id="any"><label for="any">Anytime</label><br>
+
+            <label for="contact_method">Preferred Contact Method:</label>
+            <select id="contact_method" name="contact_method">
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="text">Text</option>
+            </select><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>© 2026 Stephanie Valdez. All rights reserved.</p>
+    </footer>
+</body>
+</html>
